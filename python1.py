@@ -14,3 +14,18 @@ Notes:
 
 Any string that contains spaces or is empty should return False.
 '''
+
+def csAlphanumericRestriction(input_str):
+    # check if input_str has all letters
+        # yes, then it is TRUE
+    # check if input_str has all numbers
+        # yes, then it is TRUE
+    # check if input_str has all letters and numbers
+        # yes, then it is False
+
+    if input_str.isalpha():
+        return True
+    elif input_str.isdigit():
+        return True
+    else:
+        return False
